@@ -1,6 +1,6 @@
 Forked for a fun project.
 
-This was deployed on 2 different AWS EC2 instances as hosts using one master instance that updated the 2 hosts. This code works with AWS's RH7 image with no issues. Using the Amazon Linux 2 Image will make you have to enable SELinux on the host that you are deploying to, compared to RH7 where no configuration changes were needed.
+This was deployed on 2 different AWS EC2 instances as hosts using one master instance that updated the 2 hosts. This stack works with AWS's RH7 image with no issues. Using the Amazon Linux 2 Image will make you have to enable SELinux on the host that you are deploying to, compared to RH7 where no configuration changes were needed.
 
 ## WordPress+Nginx+PHP-FPM+MariaDB Deployment
 
