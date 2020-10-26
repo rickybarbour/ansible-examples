@@ -1,6 +1,6 @@
 A project that was forked for a fun.
 
-This was deployed on 2 different AWS EC2 instances as hosts using one master instance that updated the two hosts. This stack works with AWS's RH7 image with no issues. When using the Amazon Linux 2 Image there were two changes that needed to made. The first, you have to enable SELinux on the host that you are deploying to. The second being you have to use skip_broken = true to get past some package incompatitability issues with the PHP package. When using RH7, no configuration changes were needed.
+This was deployed on 2 different AWS EC2 instances as hosts using one master instance that updated the two hosts. This stack works with AWS's RH7 image with no issues. When using the Amazon Linux 2 Image there were two changes that needed to made. The first, you have to enable SELinux on the host that you are deploying to. The second being you have to use skip_broken = true to get past some package incompatitability issues with the PHP package in the yum module. When using RH7, no configuration changes were needed.
 
 ## WordPress+Nginx+PHP-FPM+MariaDB Deployment
 
